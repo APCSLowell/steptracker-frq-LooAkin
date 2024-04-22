@@ -5,7 +5,7 @@ public class StepTracker
  private int goalSteps;
  private ArrayList <Integer> dailySteps;
  public StepTracker(int goal){
- int goalSteps = goal;
+ goalSteps = goal;
  numActiveDays = 0;
  dailySteps = new ArrayList <Integer>();
  }
@@ -14,11 +14,9 @@ public class StepTracker
    numActiveDays++;
    dailySteps.add(numSteps);
  }
-
  public int activeDays(){
   return numActiveDays;
  }
-
  public double averageSteps(){
   double sumSteps = 0;
   for(int i = 0; i < dailySteps.size(); i++)
