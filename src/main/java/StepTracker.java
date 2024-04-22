@@ -20,7 +20,7 @@ public class StepTracker
   double sumSteps = 0;
   for(int i = 0; i < dailySteps.size(); i++)
    sumSteps = sumSteps + dailySteps.get(i);
-  double average = sumSteps/dailySteps.size();
-  return average;
+  double averageStep = sumSteps/dailySteps.size();
+  return averageStep;
  }
 } 
