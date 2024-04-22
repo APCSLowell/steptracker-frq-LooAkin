@@ -10,7 +10,7 @@ public class StepTracker
  }
  public void addDailySteps(int numSteps){
   numDays++;
-  totalSteps += numSteps;
+  totalSteps = totalSteps + numSteps;
   if(numSteps >= goalSteps)
    numActiveDays++;
  }
