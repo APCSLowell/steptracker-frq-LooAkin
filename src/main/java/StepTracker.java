@@ -1,11 +1,13 @@
 import java.util.ArrayList;
 public class StepTracker
 {
+ public void stepTracker(int goal){
+ private int goalSteps = goal;
  private int numActiveDays = 0;
  private ArrayList <Integer> dailySteps = new ArrayList <Integer>();
-
+ }
  public void addDailySteps(int numSteps){
-  if(numSteps >= 10000)
+  if(numSteps >= goalSteps)
    numActiveDays++;
    dailySteps.add(numSteps);
  }
