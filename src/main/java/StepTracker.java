@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class StepTracker
 {
  public void StepTracker(int goal){
- private int goalSteps = goal;
+ int goalSteps = goal;
  private int numActiveDays = 0;
  private ArrayList <Integer> dailySteps = new ArrayList <Integer>();
  }
