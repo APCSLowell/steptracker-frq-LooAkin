@@ -20,6 +20,7 @@ public class StepTracker
  public double averageSteps(){
   if(numDays == 0)
     return 0.0;
-  return double totalSteps/numDays;
+  double ave = (double) totalSteps/numDays;
+  return ave;
  }
 } 
